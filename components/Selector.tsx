@@ -32,7 +32,7 @@ const Selector = () => {
       <div>
         <div className="flex flex-wrap gap-4 sm:gap-2 ">
           {buttonData.map((data) => (
-            <button className="sm:text-lg p-4  lg:text-2xl text-sm duration-100 border-purple-500 rounded-2xl bg-neutral-900/80 hover:bg-neutral-800 active::border-solid active:border-[1.2px] ">
+            <button key={data.id} className="sm:text-lg p-4  lg:text-2xl text-sm duration-100 border-purple-500 rounded-2xl bg-neutral-900/80 hover:bg-neutral-800 active::border-solid active:border-[1.2px] ">
               {data.label}
             </button>
           ))}
