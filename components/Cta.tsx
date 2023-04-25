@@ -3,7 +3,7 @@ const Cta = () => {
     <div className="h-screen p-6 m-auto sm:h-fit text-neutral-50 bgCta md:pb-32 ">
       <div className="flex flex-col items-center mt-40 space-y-12 ">
         <h1 className="px-4 mx-auto text-4xl font-medium tracking-normal text-center sm:text-5xl sm:mx-24 ">
-          It's time to join the thousands of creators, artists, and developers
+          It is time to join the thousands of creators, artists, and developers
           using Solana.
         </h1>
 
