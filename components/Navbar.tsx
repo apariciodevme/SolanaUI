@@ -76,36 +76,39 @@ const Navbar = () => {
         }
       >
         <div className="fixed w-full h-screen px-3 py-8 mt-20 rounded bg-black/95 ">
-          <nav className="flex flex-col space-y-4 text-xl font-normal divide-neutral-700 text-neutral-500">
-            <div className="flex justify-between mx-4">
+          <nav className="flex flex-col gap-6 space-y-4 text-xl font-normal divide-neutral-700 ">
+            <div className="flex justify-between mx-4 cursor-pointer text-neutral-400 hover:text-neutral-50">
               {" "}
-              <Link href="#" className="transition duration-200 hover:text-neutral-100">
+              <Link href="#" className="transition duration-200 ">
                 Learn{" "}
               </Link>
-              <IoIosArrowDown className="text-2xl transition duration-200 cursor-pointer text-neutral-500 hover:text-neutral-100"/>
+              <IoIosArrowDown className="text-2xl transition duration-200 cursor-pointer "/>
             </div>
-            <div className="flex justify-between mx-4">
+           
+            <div className="flex justify-between mx-4 cursor-pointer text-neutral-400 hover:text-neutral-50">
               {" "}
-              <Link href="#" className="transition duration-200 hover:text-neutral-100">
+              <Link href="#" className="transition duration-200 ">
                 Build{" "}
               </Link>
-              <IoIosArrowDown className="text-2xl transition duration-200 cursor-pointer text-neutral-500 hover:text-neutral-100"/>
+              <IoIosArrowDown className="text-2xl transition duration-200 cursor-pointer "/>
             </div>
-            <div className="flex justify-between mx-4">
+           
+            <div className="flex justify-between mx-4 cursor-pointer text-neutral-400 hover:text-neutral-50">
               {" "}
-              <Link href="#" className="transition duration-200 hover:text-neutral-100">
+              <Link href="#" className="transition duration-200 ">
                 Network{" "}
               </Link>
-              <IoIosArrowDown className="text-2xl transition duration-200 cursor-pointer text-neutral-500 hover:text-neutral-100"/>
+              <IoIosArrowDown className="text-2xl transition duration-200 cursor-pointer "/>
             </div>
-            <div className="flex justify-between mx-4">
+           
+            <div className="flex justify-between mx-4 cursor-pointer text-neutral-400 hover:text-neutral-50">
               {" "}
-              <Link href="#" className="transition duration-200 hover:text-neutral-100">
+              <Link href="#" className="transition duration-200 ">
                 Community{" "}
               </Link>
-              <IoIosArrowDown className="text-2xl transition duration-200 cursor-pointer text-neutral-500 hover:text-neutral-100"/>
+              <IoIosArrowDown className="text-2xl transition duration-200 cursor-pointer "/>
             </div>
-     
+           
 
          
           </nav>
