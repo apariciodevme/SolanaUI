@@ -25,10 +25,40 @@ const Navbar = () => {
           />
         </div>
         <nav>
-          <button onClick={handleNav} className="cursor-pointer sm:hidden ">
+          <button onClick={handleNav} className="cursor-pointer xl:hidden ">
             {nav ? <AiOutlineClose size={25} /> : <GiHamburgerMenu size={25} />}
           </button>
         </nav>
+
+        {/*Desktop nav*/}
+        <div className="hidden xl:block">
+        <nav className="flex flex-row gap-8 text-xl font-normal text-neutral-500">
+            <div className="flex justify-between text-neutral-500 hover:text-neutral-100 ">
+              <Link href="#" className="transition duration-150 ">
+                Learn{" "}
+              </Link>
+              <IoIosArrowDown className="text-2xl transition duration-150 cursor-pointer "/>
+            </div>
+            <div className="flex justify-between text-neutral-500 hover:text-neutral-100 ">
+              <Link href="#" className="transition duration-150 ">
+                Build{" "}
+              </Link>
+              <IoIosArrowDown className="text-2xl transition duration-150 cursor-pointer "/>
+            </div>
+            <div className="flex justify-between text-neutral-500 hover:text-neutral-100 ">
+              <Link href="#" className="transition duration-150 ">
+                Network{" "}
+              </Link>
+              <IoIosArrowDown className="text-2xl transition duration-150 cursor-pointer "/>
+            </div>
+            <div className="flex justify-between text-neutral-500 hover:text-neutral-100 ">
+              <Link href="#" className="transition duration-150 ">
+                Community{" "}
+              </Link>
+              <IoIosArrowDown className="text-2xl transition duration-150 cursor-pointer "/>
+            </div>
+          </nav>
+        </div>
       </div>
       <div className="hidden">
         <div id="sideNav" />
@@ -41,7 +71,7 @@ const Navbar = () => {
         aria-label="Sidebar"
         className={
           nav
-            ? "  absolute  z-10 w-64  sm:hidden"
+            ? "  absolute  z-10 w-64  xl:hidden"
             : " absolute  z-10 w-64  hidden"
         }
       >
