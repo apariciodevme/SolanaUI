@@ -6,7 +6,6 @@ import { Roboto } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
-import LiveData from "@/components/LiveData";
 import Selector from "@/components/Selector";
 import Footer from "@/components/Footer";
 import Banner from "@/components/Banner";
