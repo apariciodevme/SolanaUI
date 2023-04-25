@@ -28,15 +28,19 @@ const Selector = () => {
   return (
     <div className="flex flex-col p-4 m-auto mt-32 text-neutral-100 ">
       <div className="items-center sm:flex sm:flex-row sm:justify-between sm:px-8">
-      <h1 className="mb-2 text-4xl font-medium sm:text-5xl ">Build for growth.</h1>
-      <div>
-        <div className="flex flex-wrap gap-4 sm:gap-2 ">
-          {buttonData.map((data) => (
-            <button key={data.id} className="sm:text-lg p-4  lg:text-2xl text-sm duration-100 border-purple-500 rounded-2xl bg-neutral-900/80 hover:bg-neutral-800 active::border-solid active:border-[1.2px] ">
-              {data.label}
-            </button>
-          ))}
-        </div>
+        <h1 className="mb-2 text-4xl font-medium sm:text-5xl ">
+          Build for growth.
+        </h1>
+        <div>
+          <div className="flex flex-wrap gap-4 sm:gap-2 ">
+            {buttonData.map((data) => (
+              <div key={data.id}>
+                <button className="sm:text-lg p-4  lg:text-2xl text-sm duration-100 border-purple-500 rounded-2xl bg-neutral-900/80 hover:bg-neutral-800 active::border-solid active:border-[1.2px] ">
+                  {data.label}
+                </button>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       {/* container */}
@@ -62,7 +66,6 @@ const Selector = () => {
         <div className="w-full h-96 imgBg rounded-b-3xl sm:rounded-3xl"></div>
       </div>
     </div>
-    
   );
 };
 
