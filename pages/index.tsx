@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
       {" "}
-      <main className="flex flex-col min-h-screen overflow-hidden ">
+      <main className="flex flex-col min-h-screen overflow-hidden bg-black ">
         <Hero />
         <Stats />
         <AltGrid/>
