@@ -7,7 +7,7 @@ const AltGrid = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3">
         <div className="">
           <div className="flex flex-col items-start mt-10 ml-6">
-            <h1 className="mb-4 text-5xl font-medium tracking-tight">
+            <h1 className="mb-4 text-5xl font-medium tracking-tight text-neutral-50">
               Made for mass adoption.
             </h1>
             <div className="flex items-start mb-12 space-x-2 ">
@@ -28,7 +28,7 @@ const AltGrid = () => {
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
                     <div className="w-[1.8px] h-9 bg-cyan-300"></div>
-                    <h1 className="text-3xl font-semibold ">Fast</h1>
+                    <h1 className="text-3xl font-semibold text-neutral-50 ">Fast</h1>
                   </div>
                   <h2 className="mr-6 text-lg text-neutral-300 sm:mr-16">
                     Don’t keep your users waiting. Solana has block times of 400
@@ -55,7 +55,7 @@ const AltGrid = () => {
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
                     <div className="w-[1.8px] h-9 bg-amber-300"></div>
-                    <h1 className="text-3xl font-semibold ">Decentralized</h1>
+                    <h1 className="text-3xl font-semibold text-neutral-50 ">Decentralized</h1>
                   </div>
                   <h2 className="text-lg text-neutral-300 sm:mr-42 sm:mr-16">
                     The Solana network is validated by thousands of nodes that
@@ -84,7 +84,7 @@ const AltGrid = () => {
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
                     <div className="w-[1.8px] h-9 bg-violet-600"></div>
-                    <h1 className="text-3xl font-semibold ">Scalable</h1>
+                    <h1 className="text-3xl font-semibold text-neutral-50 ">Scalable</h1>
                   </div>
                   <h2 className="text-lg text-neutral-300 sm:mr-16">
                     Get big, quick. Solana is made to handle thousands of
@@ -111,7 +111,7 @@ const AltGrid = () => {
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
                     <div className="sm:h-20  w-[1.8px] h-9 bg-green-400"></div>
-                    <h1 className="text-3xl font-semibold sm:mr-20 white ">
+                    <h1 className="text-3xl font-semibold sm:mr-20 text-neutral-50 ">
                       Energy Efficient
                     </h1>
                   </div>

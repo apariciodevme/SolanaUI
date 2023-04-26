@@ -13,7 +13,7 @@ import { GrReddit } from "react-icons/gr";
 
 const Footer = () => {
   return (
-    <>
+    <div className="bg-black">
       <div className="lg:hidden grid rounded-3xl pb-12  bg-gradient-to-br from-slate-950/40 from-60% to-violet-500/30 grid-cols-1 mx-auto border-neutral-900 border-solid border-[1.2px] w-full">
         <div className="flex flex-col items-center p-12 space-y-5">
           <Image src={"/logoSimple.png"} width={30} height={40} alt="logo" />
@@ -148,7 +148,7 @@ const Footer = () => {
         </div>
     
       </div>
-    </>
+    </div>
   );
 };
 

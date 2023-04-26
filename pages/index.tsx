@@ -9,7 +9,6 @@ import Stats from "@/components/Stats";
 import Selector from "@/components/Selector";
 import Footer from "@/components/Footer";
 import Banner from "@/components/Banner";
-import Carousel from "@/components/Carousel";
 import Cta from "@/components/Cta";
 import CompaniesBoard from "@/components/CompaniesBoard";
 import AltGrid from "@/components/AltGrid";

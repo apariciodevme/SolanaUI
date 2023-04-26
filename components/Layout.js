@@ -11,7 +11,7 @@ const roboto = Roboto({
 
 
 const Layout = ({children}) => {
-    return ( <main className={roboto.className}>
+    return ( <main className={roboto.className} >
             <Navbar />
             <div>{children}</div>
             <Footer/>
