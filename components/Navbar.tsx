@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
         <nav>
           <button onClick={handleNav} className="cursor-pointer lg:hidden ">
-            {nav ? <AiOutlineClose size={25} /> : <GiHamburgerMenu size={25} />}
+            {nav ? <AiOutlineClose className="text-neutral-50" size={25} /> : <GiHamburgerMenu className="text-neutral-50" size={25} />}
           </button>
         </nav>
 
